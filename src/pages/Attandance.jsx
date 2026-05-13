@@ -9,7 +9,7 @@ const Attandance = () => {
 
       <div style={{ flex: 1 }}>
         
-        <Navbar />
+        <Navbar title="Attendance" />
 
         <div style={{ padding: "20px" }}>
           

@@ -1,12 +1,12 @@
 import "./Navbar.css";
 
-const Navbar = () => {
+const Navbar = ({ title }) => {
   return (
     <div
       className="navbar"
       
     >
-      Employee Management
+      {title}
     </div>
   );
 };

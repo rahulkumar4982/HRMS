@@ -10,7 +10,7 @@ const EmployeeManagement = () => {
 
       <div style={{ flex: 1 }}>
         
-        <Navbar />
+        <Navbar title="Employee Management" />
 
         <div style={{ padding: "50px" }}>
           <EmployeeTable />

@@ -1,16 +1,11 @@
+import "./Sidebar.css";
 import { Link } from "react-router-dom";
 const Sidebar = () => {
   return (
     <div
-      style={{
-        width: "220px",
-        height: "100vh",
-        backgroundColor: "#1e293b",
-        color: "white",
-        padding: "20px",
-      }}
+      className="sidebar"
     >
-      <h2>HRMS</h2>
+      <h1>HRMS</h1>
 
       <ul style={{ listStyle: "none", padding: 0 }}>
         <li style={{ marginBottom: "20px" }}>
